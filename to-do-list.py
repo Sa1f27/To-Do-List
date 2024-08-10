@@ -8,7 +8,7 @@ root.title("To-Do List")
 root.geometry("500x500")
 root.config(bg="lightblue")
 
-# Defining fonts and colors
+# Defining fonts 
 header_font = font.Font(family="Helvetica", size=18, weight="bold")
 task_font = font.Font(family="Arial", size=12)
 button_font = font.Font(family="Helvetica", size=12, weight="bold")
