@@ -1,4 +1,4 @@
-import tkinter as tk
+import tkinter as tk #import tkinter
 from tkinter import font, messagebox
 from tkinter import ttk
 
