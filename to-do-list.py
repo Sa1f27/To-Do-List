@@ -100,8 +100,7 @@ def sort_tasks():
     tasks = listbox.get(0, tk.END)
     tasks.sort(key=lambda x: ("High", "Medium", "Low").index(x.split('[')[-1].strip(']')))
     listbox.delete(0, tk.END)
-    for task in tasks:
-        listbox.insert(tk.END, task)
+    
 
 # Fill the entry with the selected task when double-clicked
 def fill_task_entry(event):
