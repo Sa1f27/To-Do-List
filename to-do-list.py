@@ -98,7 +98,7 @@ def update_task():
 # Function to sort tasks by priority
 def sort_tasks():
     tasks = listbox.get(0, tk.END)
-    tasks.sort(key=lambda x: ("High", "Medium", "Low").index(x.split('[')[-1].strip(']')))
+    tasks.sort(key=lambda x: ("High", "Medium", "Low")
     listbox.delete(0, tk.END)
     for task in tasks:
         listbox.insert(tk.END, task)
